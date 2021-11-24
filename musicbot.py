@@ -685,4 +685,6 @@ async def on_command_error(ctx, error):
 		return
 	raise error
 
+
+access_token = os.environ["BOT_TOKEN"]	
 bot.run(access_token)
